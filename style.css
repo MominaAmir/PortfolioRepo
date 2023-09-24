@@ -35,7 +35,7 @@ header {
 .logo h1 {
   color: #6070ff;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -59,10 +59,9 @@ header {
   margin: 3px 0;
 }
 
-
 .headline h1 {
   color: #172b4d;
-  font-family: Poppins;
+  font-family: "Times New Roman", Times, serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -71,7 +70,7 @@ header {
 
 .headline p {
   color: #344563;
-  font-family: Poppins;
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -80,7 +79,7 @@ header {
 
 .headline h5 {
   color: #7f8cff;
-  font-family: Poppins;
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
