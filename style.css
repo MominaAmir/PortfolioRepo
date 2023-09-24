@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .background {
   /* this stylying is for the background image and size setting */
   width: 375px;
