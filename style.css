@@ -1,5 +1,5 @@
 .background {
-  /*this stylying is for the background image and size setting*/
+  /* this stylying is for the background image and size setting */
   width: 375px;
   height: 718px;
   flex-shrink: 0;
@@ -8,7 +8,7 @@
 }
 
 header {
-  /*this contain the layout of header section containing logo and menu icon*/
+  /* this contain the layout of header section containing logo and menu icon */
   display: flex;
   width: 375px;
   height: 48px;
@@ -19,14 +19,14 @@ header {
 }
 
 .logo {
-  /*this is outer box layout for MY LOGO text*/
+  /* this is outer box layout for MY LOGO text */
   display: flex;
   padding: 10px 12px;
   align-items: center;
 }
 
 .logo h1 {
-  /* this is the styling of MyLOGO*/
+  /* this is the styling of MyLOGO */
   color: #6070ff;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
@@ -37,7 +37,7 @@ header {
 }
 
 .Menuicon {
-  /*this contian the layout for menuicon*/
+  /* this contian the layout for menuicon */
   display: flex;
   align-items: flex-start;
   cursor: pointer;
@@ -48,7 +48,7 @@ header {
 }
 
 .Menuicon div {
-  /*this is the adjustment of size of menu icon*/
+  /* this is the adjustment of size of menu icon */
   width: 24px;
   height: 24px;
   background-color: rgba(96, 112, 255, 1);
@@ -56,7 +56,7 @@ header {
 }
 
 .headline {
-  /*This is for the headline section which contain the description intro and connect icons*/
+  /* This is for the headline section which contain the description intro and connect icons */
   padding-top: 50px;
   width: 375px;
   height: 718px;
@@ -66,7 +66,7 @@ header {
   padding-left: 24px;
 }
 .headline h1 {
-  /*Containing the styling of intro section with*/
+  /* Containing the styling of intro section with */
   color: #172b4d;
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
@@ -76,7 +76,7 @@ header {
 }
 
 .headline p {
-  /*this is the styling of the paragraph having description of the user*/
+  /* this is the styling of the paragraph having description of the user */
   color: #344563;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
@@ -86,7 +86,7 @@ header {
 }
 
 .headline h5 {
-  /*this styling is for the lets connect text*/
+  /* this styling is for the lets connect text */
   color: #7f8cff;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
@@ -96,7 +96,7 @@ header {
 }
 
 .headline img {
-  /*these adjustments are for the social media icons image*/
+  /* these adjustments are for the social media icons image */
   width: 170.167px;
   height: 20px;
   cursor: pointer;
