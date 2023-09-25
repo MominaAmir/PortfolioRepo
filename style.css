@@ -3,32 +3,14 @@
   padding: 0;
 }
 
-.background {
-  width: 375px;
-  height: 718px;
-  flex-shrink: 0;
-  fill: #fff;
-  background-image: url("background.png");
-}
-
-.headline {
-  padding-top: 50px;
-  width: 375px;
-  height: 718px;
-  flex-shrink: 0;
-  fill: #fff;
-  padding-right: 24px;
-  padding-left: 24px;
-}
-
 header {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 375px;
-  height: 48px;
+  height: 50px;
   padding: 4px 24px 4px 12px;
-  align-items: flex-start;
   gap: 199px;
-  flex-shrink: 0;
 }
 
 .logo {
@@ -41,19 +23,14 @@ header {
   color: #6070ff;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
+  font-size: 25px;
 }
 
 .Menuicon {
   display: flex;
-  align-items: flex-start;
+  height: 30px;
   cursor: pointer;
   flex-direction: column;
-  justify-content: space-between;
-  
 }
 
 .Menuicon div {
@@ -63,38 +40,3 @@ header {
   margin: 3px 0;
 }
 
-.headline h1 {
-  color: #172b4d;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-}
-
-.headline p {
-  color: #344563;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: 20px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.headline h5 {
-  color: #7f8cff;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
-  font-style: normal;
-  margin-top: 20px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-figure img {
-  width: 170.167px;
-  height: 20px;
-  cursor: pointer;
-  margin-top: 20px;
-}
