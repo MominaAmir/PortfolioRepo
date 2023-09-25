@@ -53,13 +53,12 @@ header {
   cursor: pointer;
   flex-direction: column;
   justify-content: space-between;
-  height: 25px;
-  padding: 20px;
+  
 }
 
 .Menuicon div {
   width: 24px;
-  height: 24px;
+  height: 2px;
   background-color: rgba(96, 112, 255, 1);
   margin: 3px 0;
 }
@@ -76,6 +75,7 @@ header {
 .headline p {
   color: #344563;
   font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -87,12 +87,14 @@ header {
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   font-style: normal;
+  margin-top: 20px;
   font-weight: 500;
   line-height: 24px;
 }
 
-.headline img {
+figure img {
   width: 170.167px;
   height: 20px;
   cursor: pointer;
+  margin-top: 20px;
 }
