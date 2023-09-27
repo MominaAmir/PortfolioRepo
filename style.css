@@ -88,16 +88,13 @@ header {
   line-height: 24px;
 }
 
-figure
-{
+figure {
   margin-top: 12px;
   display: flex;
   width: 170px;
   height: 20px;
-  color: rgba(80, 95, 121, 1);
 }
 
-figure img{
+figure img {
   padding-right: 24px;
 }
-
