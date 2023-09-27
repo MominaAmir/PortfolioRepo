@@ -69,7 +69,7 @@ header {
 }
 
 .headline p {
-  margin-top: 5px;
+  margin-top: 12px;
   color: #344563;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 16px;
@@ -79,7 +79,7 @@ header {
 }
 
 .headline h5 {
-  margin-top: 10px;
+  margin-top: 12px;
   color: #7f8cff;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 16px;
@@ -88,9 +88,16 @@ header {
   line-height: 24px;
 }
 
-figure img {
-  margin-top: 10px;
-  width: 170.167px;
+figure
+{
+  margin-top: 12px;
+  display: flex;
+  width: 170px;
   height: 20px;
-  cursor: pointer;
+  color: rgba(80, 95, 121, 1);
 }
+
+figure img{
+  padding-right: 24px;
+}
+
