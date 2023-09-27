@@ -6,7 +6,6 @@
 .background {
   width: 375px;
   height: 718px;
-  flex-shrink: 0;
   fill: #fff;
   background-image: url("background.png");
 }
@@ -15,23 +14,22 @@
   padding-top: 50px;
   width: 375px;
   height: 718px;
-  flex-shrink: 0;
   fill: #fff;
   padding-right: 24px;
   padding-left: 24px;
 }
 
 header {
+  margin-top: 10px;
   display: flex;
-  width: 375px;
-  height: 48px;
-  padding: 4px 24px 4px 12px;
   align-items: flex-start;
+  width: 370px;
+  height: 48px;
   gap: 199px;
-  flex-shrink: 0;
 }
 
 .logo {
+  margin-left: 10px;
   display: flex;
   padding: 10px 12px;
   align-items: center;
@@ -40,19 +38,19 @@ header {
 .logo h1 {
   color: #6070ff;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
 }
 
 .Menuicon {
-  display: flex;
-  align-items: flex-start;
+  background-color: #fff;
+  margin-top: 10px;
+  border: 0;
+  height: 30px;
   cursor: pointer;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .Menuicon div {
@@ -63,8 +61,9 @@ header {
 }
 
 .headline h1 {
+  margin-top: 50px;
   color: #172b4d;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -72,9 +71,9 @@ header {
 }
 
 .headline p {
+  margin-top: 5px;
   color: #344563;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -82,18 +81,18 @@ header {
 }
 
 .headline h5 {
+  margin-top: 10px;
   color: #7f8cff;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 16px;
   font-style: normal;
-  margin-top: 20px;
   font-weight: 500;
   line-height: 24px;
 }
 
 figure img {
+  margin-top: 10px;
   width: 170.167px;
   height: 20px;
   cursor: pointer;
-  margin-top: 20px;
 }
