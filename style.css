@@ -6,7 +6,6 @@
 .background {
   width: 375px;
   height: 718px;
-  flex-shrink: 0;
   fill: #fff;
   background-image: url("background.png");
 }
@@ -15,23 +14,22 @@
   padding-top: 50px;
   width: 375px;
   height: 718px;
-  flex-shrink: 0;
   fill: #fff;
   padding-right: 24px;
   padding-left: 24px;
-  margin-top: 30px;
 }
 
 header {
+  margin-top: 10px;
   display: flex;
   align-items: flex-start;
-  width: 375px;
+  width: 370px;
   height: 48px;
-  padding: 4px 24px 4px 12px;
   gap: 199px;
 }
 
 .logo {
+  margin-left: 10px;
   display: flex;
   padding: 10px 12px;
   align-items: center;
@@ -40,12 +38,14 @@ header {
 .logo h1 {
   color: #6070ff;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 18px;
 }
 
 .Menuicon {
-  display: flex;
+  background-color: #fff;
+  margin-top: 10px;
+  border: 0;
   height: 30px;
   cursor: pointer;
   flex-direction: column;
@@ -59,8 +59,9 @@ header {
 }
 
 .headline h1 {
+  margin-top: 50px;
   color: #172b4d;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -68,9 +69,9 @@ header {
 }
 
 .headline p {
+  margin-top: 12px;
   color: #344563;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -78,18 +79,22 @@ header {
 }
 
 .headline h5 {
+  margin-top: 12px;
   color: #7f8cff;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 16px;
   font-style: normal;
-  margin-top: 50px;
   font-weight: 500;
   line-height: 24px;
 }
 
-figure img {
-  width: 170.167px;
+figure {
+  margin-top: 12px;
+  display: flex;
+  width: 170px;
   height: 20px;
-  cursor: pointer;
-  margin-top: 20px;
+}
+
+figure img {
+  padding-right: 24px;
 }
