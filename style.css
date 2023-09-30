@@ -38,7 +38,7 @@ header {
 }
 
 .logo h1 {
- color: #6070ff;
+  color: #6070ff;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 18px;
@@ -51,6 +51,15 @@ header {
   height: 30px;
   cursor: pointer;
   flex-direction: column;
+}
+
+list div {
+  display: flex;
+  height: 66px;
+  width: 303px;
+  background-color: rgb(245, 245, 250);
+  padding: 9px 12px 9.716px 12px;
+  border-radius: 8px;
 }
 
 .Menuicon div {
@@ -68,6 +77,16 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
+}
+
+list div p {
+  margin-left: 16px;
+  color: #253858;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .headline p {
@@ -98,6 +117,10 @@ figure {
   padding-bottom: 114px;
 }
 
+.AboutMyself figure{
+  padding-bottom: 24px;
+}
+
 figure img {
   padding-right: 24px;
 }
@@ -114,7 +137,7 @@ figure img {
   display: grid;
   justify-items: center;
   grid-template-columns: 24px 327px 24px;
-  grid-template-rows: 552x auto auto;
+  grid-template-rows: auto auto auto;
   padding-top: 114px;
 }
 
@@ -126,7 +149,29 @@ figure img {
   background: white;
 }
 
+.WorkStation .work2{
+  height: 564px;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  background: white;
+}
+
+.WorkStation .work3{
+  margin-bottom: 114px;
+}
+
 .work1 h1 {
+  margin-top: 12px;
+  color: #172b4d;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.work2 h1 {
   margin-top: 12px;
   color: #172b4d;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
@@ -148,6 +193,15 @@ figure img {
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 13px;
   line-height: 16px;
+}
+
+button h6 {
+  color: #396df2;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.51px;
 }
 
 .points h6 {
@@ -173,12 +227,26 @@ figure img {
   line-height: 24px;
 }
 
+.work2 p{
+  margin-top: 12px;
+  color: #344563;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 .languageTags {
   margin-top: 12px;
   padding-bottom: 12px;
 }
 
 .work1 aside {
+  display: inline;
+  background-color: rgba(235, 235, 255, 1);
+  border-radius: 8px;
+}
+
+.work2 aside {
   display: inline;
   background-color: rgba(235, 235, 255, 1);
   border-radius: 8px;
@@ -234,15 +302,6 @@ button {
   cursor: pointer;
 }
 
-button h6 {
-  color: #396df2;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.51px;
-}
-
 .AboutMyself {
   width: 375px;
   height: 1062px;
@@ -296,6 +355,25 @@ button h6 {
   align-items: center;
 }
 
+.Languages1 {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  border-bottom: 2px solid rgba(223, 225, 230, 1);
+  width: 327px;
+}
+
+.Languages1 h1 {
+  width: 237px;
+  padding: 16px 26px 16px 12px;
+  color: #000;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 .Languages h1 {
   width: 237px;
   padding: 16px 26px 16px 12px;
@@ -318,7 +396,6 @@ button h6 {
   border: solid rgba(94, 108, 132, 1);
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 8px;
   transform: rotate(45deg);
 }
 
@@ -333,30 +410,15 @@ list {
   cursor: pointer;
 }
 
-list div {
-  display: flex;
-  height: 66px;
-  width: 303px;
-  background-color: rgb(245, 245, 250);
-  padding: 9px 12px 9.716px 12px;
-  border-radius: 8px;
-}
-
-list div p {
-  margin-left: 16px;
-  color: #253858;
-  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-}
-
 .up {
   padding: 8px;
   border: solid rgba(94, 108, 132, 1);
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 8px;
   transform: rotate(-45deg);
+}
+
+list div img{
+ border:1px solid #FFF; 
+ border-radius: 48px;
 }
