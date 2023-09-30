@@ -117,7 +117,7 @@ figure {
   padding-bottom: 114px;
 }
 
-.AboutMyself figure{
+.AboutMyself figure {
   padding-bottom: 24px;
 }
 
@@ -149,7 +149,7 @@ figure img {
   background: white;
 }
 
-.WorkStation .work2{
+.WorkStation .work2 {
   height: 564px;
   border-radius: 16px;
   padding: 16px;
@@ -157,7 +157,7 @@ figure img {
   background: white;
 }
 
-.WorkStation .work3{
+.WorkStation .work3 {
   margin-bottom: 114px;
 }
 
@@ -227,7 +227,7 @@ button h6 {
   line-height: 24px;
 }
 
-.work2 p{
+.work2 p {
   margin-top: 12px;
   color: #344563;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
@@ -418,7 +418,7 @@ list {
   transform: rotate(-45deg);
 }
 
-list div img{
- border:1px solid #FFF; 
- border-radius: 48px;
+list div img {
+  border: 1px solid #FFF;
+  border-radius: 48px;
 }
