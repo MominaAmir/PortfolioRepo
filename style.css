@@ -53,7 +53,7 @@ header {
   flex-direction: column;
 }
 
-list div {
+ol div {
   display: flex;
   height: 66px;
   width: 303px;
@@ -79,7 +79,7 @@ list div {
   line-height: 52px;
 }
 
-list div p {
+ol div p {
   margin-left: 16px;
   color: #253858;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
@@ -399,7 +399,7 @@ button {
   transform: rotate(45deg);
 }
 
-list {
+ol {
   height: 248px;
   width: 327px;
   display: flex;
@@ -418,7 +418,7 @@ list {
   transform: rotate(-45deg);
 }
 
-list div img {
+ol div img {
   border: 1px solid white;
   border-radius: 48px;
 }
