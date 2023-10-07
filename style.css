@@ -58,6 +58,16 @@ header {
   line-height: 52px;
 }
 
+ol div p {
+  padding-top: 20px;
+  color: #253858;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
 .headline p {
   width: 920px;
   height: 98px;
@@ -403,16 +413,6 @@ ol div {
   border-radius: 8px;
 }
 
-ol div p {
-  padding-top: 20px;
-  color: #253858;
-  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-}
-
-.bottomBorder{
+.bottomBorder {
   border-bottom: 2px solid rgba(223, 225, 230, 1);
 }
