@@ -92,7 +92,6 @@ figure img {
   height: 20px;
 }
 
-
 .WorkSection {
   background-color: rgb(245, 248, 248);
   height: 2694px;
@@ -159,6 +158,15 @@ figure img {
   line-height: 10px;
 }
 
+button h6 {
+  color: #396df2;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+}
+
 .points h6 {
   color: #7a869a;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
@@ -217,7 +225,7 @@ figure img {
   display: flex;
   width: 496px;
   height: 153px;
-  padding: 16px 370px 89px 0px;
+  padding: 16px 370px 89px 0;
   align-items: center;
 }
 
@@ -230,15 +238,6 @@ button {
   border: 1px solid #6070ff;
   background-color: white;
   cursor: pointer;
-}
-
-button h6 {
-  color: #396df2;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.51px;
 }
 
 .work2 {
