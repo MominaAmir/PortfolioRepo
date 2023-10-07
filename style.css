@@ -244,3 +244,175 @@ button {
 .work2 {
   flex-direction: row-reverse;
 }
+
+.AboutMyself {
+  width: 1440px;
+  height: 668px;
+  display: flex;
+  flex-direction: row;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  width: 447px;
+  height: 311px;
+  margin-left: 143px;
+  margin-top: 166px;
+  margin-bottom: 191px;
+  gap: 12px;
+}
+
+.AboutMyself h1 {
+  color: #172b4d;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.AboutMyself p {
+  color: #344563;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.AboutMyself h5 {
+  color: #7f8cff;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.AboutMyself button {
+  color: #6070ff;
+  width: 162px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  background-color: white;
+  cursor: pointer;
+}
+
+.AboutMyself figure {
+  width: 920px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.languageMenu {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.Languages {
+  width: 684px;
+  height: 288px;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 166px;
+  margin-left: 24px;
+  gap: 12px;
+}
+
+.Languages1 {
+  display: flex;
+  width: 684px;
+  height: 72px;
+  align-items: center;
+  border-bottom: 2px solid rgba(223, 225, 230, 1);
+  width: 327px;
+}
+
+.Languages1 h1 {
+  width: 684px;
+  padding: 16px 26px 16px 12px;
+  color: #000;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.Languages h1 {
+  width: 582px;
+  height: 24px;
+  color: #000;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.arrow {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.down {
+  padding: 8px;
+  border: solid rgba(94, 108, 132, 1);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+
+ol {
+  height: 120px;
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  cursor: pointer;
+  margin-right: 250px;
+}
+
+.up {
+  padding: 8px;
+  border: solid rgba(94, 108, 132, 1);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  transform: rotate(-45deg);
+}
+
+ol div img {
+  border: 1px solid white;
+  border-radius: 48px;
+}
+
+ol div {
+  display: flex;
+  flex-direction: column;
+  height: 98px;
+  width: 88px;
+  background-color: rgb(245, 245, 250);
+  padding: 12px 12px 20px 12px;
+  border-radius: 8px;
+}
+
+ol div p {
+  padding-top: 20px;
+  color: #253858;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.bottomBorder{
+  border-bottom: 2px solid rgba(223, 225, 230, 1);
+}
