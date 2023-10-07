@@ -117,6 +117,7 @@ figure img {
   flex-wrap: nowrap;
   flex-shrink: 0;
 }
+
 .block {
   width: 544px;
   height: 445px;
