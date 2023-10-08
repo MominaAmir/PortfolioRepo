@@ -102,6 +102,24 @@ figure img {
   height: 20px;
 }
 
+.menu li {
+  width: 24px;
+  height: 2px;
+  margin: 50px 0;
+}
+
+.logo h1 {
+  color: #6070ff;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  word-wrap: normal;
+}
+
+.headline {
+  margin-left: 200px;
+}
+
 .WorkSection {
   background-color: rgb(245, 248, 248);
   height: 2694px;
@@ -414,4 +432,143 @@ ol div {
 
 .bottomBorder {
   border-bottom: 2px solid rgba(223, 225, 230, 1);
+}
+
+.ContactForm {
+  width: 1440px;
+  height: 846px;
+  background-image: url("contact\ form-\ background-shape-desktop@2x.png");
+}
+
+.ContactForm h2 {
+  padding-top: 103px;
+  color: white;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 40px;
+}
+
+.ContactForm p {
+  margin-top: 12px;
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 52px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 18px;
+}
+
+form input {
+  width: 447px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+}
+
+form textarea {
+  width: 447px;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+}
+
+.formButton {
+  color: #6070ff;
+  width: 142px;
+  height: 48px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .work1 {
+    width: 550px;
+    height: 800px;
+    margin-right: 400px;
+    flex-direction: column;
+  }
+
+  .work2 {
+    flex-direction: column;
+  }
+
+  .work1 img {
+    justify-content: center;
+  }
+
+  .WorkSection {
+    width: 768px;
+    height: 100%;
+  }
+
+  .AboutMyself {
+    flex-direction: column;
+    width: 600px;
+    height: auto;
+  }
+
+  .Languages {
+    margin-top: -80px;
+    margin-bottom: 200px;
+  }
+
+  .languageMenu {
+    height: 72px;
+    align-items: center;
+    width: 507px;
+  }
+
+  ol {
+    margin-left: 150px;
+  }
+
+  ol div {
+    display: flex;
+    height: 66px;
+    width: 303px;
+    flex-direction: row;
+    padding: 9px 12px 9.716px 12px;
+    border-radius: 8px;
+  }
+
+  .ContactForm {
+    width: 768px;
+    height: 779px;
+    background-image: url("contact\ form-\ background-shape-desktop@2x.png");
+  }
+
+  form input {
+    width: 327px;
+    height: 48px;
+  }
+
+  form textarea {
+    width: 327px;
+    height: 170px;
+  }
+
+  .formButton {
+    margin-right: 190px;
+  }
 }
