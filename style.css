@@ -3,6 +3,30 @@
   padding: 0;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+li:hover,
+li:focus {
+  background-color: #fff;
+  color: #242222;
+}
+
+button:focus {
+  background-color: #fff;
+  color: #242222;
+}
+
+
 header {
   height: 40px;
   display: flex;
@@ -66,7 +90,9 @@ ol div p {
   line-height: 20px;
 }
 
-.headline p {
+.headline p { 
+  animation-duration: 3s;
+  animation-name: slidein;
   width: 920px;
   height: 98px;
   color: #344563;
