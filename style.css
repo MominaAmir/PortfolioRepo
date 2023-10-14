@@ -331,6 +331,7 @@ button {
 button:active {
   transform: scale(0.96);
 }
+
 .work2 {
   flex-direction: row-reverse;
 }
@@ -536,6 +537,7 @@ form textarea {
   cursor: pointer;
   transition: 0.125rem;
 }
+
 .workDesktop {
   display: none;
   width: 20.4375rem;
@@ -762,6 +764,7 @@ form textarea {
     padding: 1.5rem 3rem;
     display: inline-block;
   }
+  
   .WorkSection {
     width: 100%;
     height: 100%;
