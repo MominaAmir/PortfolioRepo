@@ -102,12 +102,32 @@ ol div {
   height: 52.875rem;
 }
 
+.headlineMobile {
+  display: none;
+  padding-top: 3.125rem;
+  width: 23.4375rem;
+  height: 37.75rem;
+  fill: #fff;
+  padding-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 17.5rem 16.25rem;
   gap: 0.875rem;
+}
+
+.headlineMobile h1 {
+  margin-top: 3.125rem;
+  color: #172b4d;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
 }
 
 .headline h1 {
@@ -132,6 +152,26 @@ ol div p {
   font-style: normal;
   font-weight: 500;
   line-height: 1.25rem;
+}
+
+.headlineMobile p {
+  margin-top: 0.75rem;
+  color: #344563;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.headlineMobile h6 {
+  margin-top: 0.75rem;
+  color: #7f8cff;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
 }
 
 .headline p {
@@ -194,7 +234,6 @@ figure img {
   background: white;
   display: flex;
   flex-wrap: nowrap;
-  flex-shrink: 0;
 }
 
 .block {
@@ -230,7 +269,6 @@ figure img {
 
 .points {
   display: flex;
-  flex-shrink: 0;
   gap: 0.75rem;
 }
 
@@ -620,7 +658,7 @@ form textarea {
   }
 
   .WorkSection {
-    width: 100%;
+    width: max-content;
     height: 100%;
   }
 
@@ -700,14 +738,15 @@ form textarea {
   header {
     margin-top: 1.875rem;
     padding: 0;
+    gap: 12.438rem;
     display: flex;
     width: 100%;
     height: 100%;
   }
 
   .logo {
-    width: 6.25rem;
-    height: 2.5rem;
+    width: 100%;
+    height: 100%;
     display: flex;
     padding: 0.625rem 0.75rem;
     align-items: center;
@@ -740,29 +779,25 @@ form textarea {
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    width: 100%;
   }
 
   .headline {
+    display: none;
+  }
+
+  .headlineMobile {
+    display: flex;
+    flex-direction: column;
     padding-top: 3.125rem;
-    width: 23.4375rem;
+    width: 100%;
     height: 37.75rem;
     fill: #fff;
     padding-right: 1.5rem;
-    margin-left: 1.5rem;
   }
 
-  .headline h1 {
-    margin-top: 7.125rem;
-    display: inline-block;
-    font-size: 2.5rem;
-  }
-
-  .headline p {
-    margin-right: 36.875rem;
-    width: 20.4375rem;
-    height: 9.125rem;
-    padding: 1.5rem 3rem;
-    display: inline-block;
+  figure {
+    margin-top: 1.25rem;
   }
 
   .WorkSection {
@@ -775,7 +810,8 @@ form textarea {
   }
 
   .WorkStation {
-    width: 23.4375rem;
+    /* width: 23.4375rem; */
+    width: 100%;
     padding-top: 7.125rem;
   }
 
@@ -785,6 +821,10 @@ form textarea {
     display: flex;
     flex-direction: column;
     margin-left: 1.25rem;
+  }
+
+  .workDesktop img {
+    width: 100%;
   }
 
   .points {
@@ -802,13 +842,14 @@ form textarea {
 
   .AboutMyself {
     padding: 7.125rem 1.5rem;
-    width: 25rem;
-    height: 66.375rem;
+    padding-left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .block1 {
-    width: 23.4375rem;
-    height: 66.375rem;
+    width: 100%;
+    height: 100%;
     margin: 1.5rem;
   }
 
@@ -817,25 +858,26 @@ form textarea {
   }
 
   .block1 p {
-    width: 20.4375rem;
-    height: 9.125rem;
+    width: 100%;
+    height: 100%;
     font-size: 1rem;
     display: inline-block;
     justify-content: center;
   }
 
   .Languages {
+    padding: 1.5rem;
     margin: 0;
     margin-top: 6.25rem;
     display: flex;
     flex-direction: column;
-    height: 64rem;
-    width: 20.4375rem;
+    height: 100%;
+    width: 100%;
     padding-bottom: 7.125rem;
   }
 
   .languageMenu {
-    width: 20.4375rem;
+    width: 100%;
   }
 
   .languageMenu h1 {
@@ -843,8 +885,8 @@ form textarea {
   }
 
   ol {
-    height: 15.5rem;
-    width: 20.4375rem;
+    height: 100%;
+    width: 100%;
     display: flex;
     padding: 0.75rem;
     flex-direction: column;
@@ -852,10 +894,11 @@ form textarea {
     gap: 0.75rem;
     cursor: pointer;
     margin: 0;
+    padding-left: 0;
   }
 
   .bottomBorder {
-    width: 20.4375rem;
+    width: 100%;
     border-bottom: 2px solid rgba(223, 225, 230, 1);
   }
 
@@ -870,8 +913,8 @@ form textarea {
   }
 
   .ContactForm {
-    width: 23.4375rem;
-    height: 59.375rem;
+    width: 100%;
+    height: 100%;
     background-image: url("ConVector.png");
     background-color: #6070ff;
     background-repeat: no-repeat;
@@ -911,5 +954,6 @@ form textarea {
     height: 3rem;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
+    margin-bottom: 1rem;
   }
 }
