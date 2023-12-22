@@ -745,8 +745,8 @@ form textarea {
   }
 
   .logo {
-    width: 6.25rem;
-    height: 2.5rem;
+    width: 100%;
+    height: 100%;
     display: flex;
     padding: 0.625rem 0.75rem;
     align-items: center;
@@ -779,6 +779,7 @@ form textarea {
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    width: 100%;
   }
 
   .headline {
@@ -789,7 +790,7 @@ form textarea {
     display: flex;
     flex-direction: column;
     padding-top: 3.125rem;
-    width: 23.4375rem;
+    width: 100%;
     height: 37.75rem;
     fill: #fff;
     padding-right: 1.5rem;
@@ -809,7 +810,8 @@ form textarea {
   }
 
   .WorkStation {
-    width: 23.4375rem;
+    /* width: 23.4375rem; */
+    width: 100%;
     padding-top: 7.125rem;
   }
 
@@ -819,6 +821,10 @@ form textarea {
     display: flex;
     flex-direction: column;
     margin-left: 1.25rem;
+  }
+
+  .workDesktop img {
+    width: 100%;
   }
 
   .points {
@@ -837,13 +843,13 @@ form textarea {
   .AboutMyself {
     padding: 7.125rem 1.5rem;
     padding-left: 0;
-    width: 25rem;
-    height: 66.375rem;
+    width: 100%;
+    height: 100%;
   }
 
   .block1 {
-    width: 23.4375rem;
-    height: 66.375rem;
+    width: 100%;
+    height: 100%;
     margin: 1.5rem;
   }
 
@@ -852,8 +858,8 @@ form textarea {
   }
 
   .block1 p {
-    width: 20.4375rem;
-    height: 9.125rem;
+    width: 100%;
+    height: 100%;
     font-size: 1rem;
     display: inline-block;
     justify-content: center;
@@ -865,13 +871,13 @@ form textarea {
     margin-top: 6.25rem;
     display: flex;
     flex-direction: column;
-    height: 64rem;
-    width: 20.4375rem;
+    height: 100%;
+    width: 100%;
     padding-bottom: 7.125rem;
   }
 
   .languageMenu {
-    width: 20.4375rem;
+    width: 100%;
   }
 
   .languageMenu h1 {
@@ -879,8 +885,8 @@ form textarea {
   }
 
   ol {
-    height: 15.5rem;
-    width: 20.4375rem;
+    height: 100%;
+    width: 100%;
     display: flex;
     padding: 0.75rem;
     flex-direction: column;
@@ -892,7 +898,7 @@ form textarea {
   }
 
   .bottomBorder {
-    width: 20.4375rem;
+    width: 100%;
     border-bottom: 2px solid rgba(223, 225, 230, 1);
   }
 
@@ -907,8 +913,8 @@ form textarea {
   }
 
   .ContactForm {
-    width: 23.4375rem;
-    height: 59.375rem;
+    width: 100%;
+    height: 100%;
     background-image: url("ConVector.png");
     background-color: #6070ff;
     background-repeat: no-repeat;
@@ -948,5 +954,6 @@ form textarea {
     height: 3rem;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
+    margin-bottom: 1rem;
   }
 }
